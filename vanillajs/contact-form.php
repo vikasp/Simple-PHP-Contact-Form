@@ -1,6 +1,6 @@
 <?php
 $subjectPrefix = '[Contato via Site]';
-$emailTo = '<YOUR_EMAIL_HERE>';
+$emailTo = 'gurudasmewada@gmail.com';
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name    = stripslashes(trim($_POST['form-name']));
